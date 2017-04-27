@@ -1,0 +1,111 @@
+ 
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30!important;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      text-transform: uppercase;
+  }
+    .nav-tabs li a {
+      color: #777;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #b29600 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+     background-color: #29292c !important;
+     
+  }
+    .navbar-default .navbar-toggle {
+      border-color: transparent!important;
+  }
+
+
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+    .modal-header, .modal-body {
+      padding: 50px 50px;
+  }
+ body {
+ 	margin:50px;
+ }
+
+.select button {
+	 width: 34%;
+	 text-align:center;
+	}
+.select .caret {
+	position:absolute; 
+	right:10px; 
+	margin-top:10px;
+}
+.select:last-child>.btn {
+	border-top-left-radius:5px;
+	 border-bottom-left-radius:5px;
+	}
+.selected {
+	padding-right:10px;
+}
+.option {
+	width:50%;
+}
+.accrdbtn{
+	    background-color: #e74c3c!important;
+   cursor: pointer;
+    color: white!important;
+}
+.accli{
+	width: 35%;
+    
+}
+.accli li a:hover{
+	background-color: #e74c3c!important;
+    color: white!important;
+    cursor: pointer;
+}
+.dropbtn{
+	left: 34%!important;
+
+}
+.btn-success{
+
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    height: 36px;
+    position: relative;
+    margin: 26px -49px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #5cb85c;
+}
+.button{
+	 padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+	  border-radius: 10px;
+  box-shadow: 0 7px #999;
+}
+.button:hover {
+	background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

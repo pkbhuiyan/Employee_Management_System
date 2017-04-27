@@ -1,0 +1,224 @@
+
+
+
+ 
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30!important;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      text-transform: uppercase;
+  }
+    .nav-tabs li a {
+      color: #777;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #b29600 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+     background-color: #29292c !important;
+     
+  }
+    .navbar-default .navbar-toggle {
+      border-color: transparent!important;
+  }
+  .imgL{
+    height: 500px!important;
+    width: auto;
+  }
+
+   .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  .car{
+    height: auto;
+    width: auto; 
+    padding: 50px!important;
+    top: 40%;
+
+  }
+   .carL{
+    height: auto;
+    width: auto;
+    border:1px solid white;
+    background-color: white;
+    padding: 10px;
+    top: 40%;
+   opacity: 0.8;
+  }
+  .black{
+   padding: 50px;
+  }
+ /* .form-conl{
+    border: 1px solid #b29600!important;
+  }*/
+  div.hr {
+    border: 0;
+  width: 100%;
+/*color:#b29600!important;
+background-color: #b29600;*/
+margin-right: 10px;
+margin-top: 60px;
+height: 2px;
+}
+ .button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\f0a9";
+/* content: "»";*/
+
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+.button:hover  {
+  background-color: #3498db;
+  
+}
+
+.button:hover span {
+  padding-right: 35px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.about{
+  height: 300px;
+  padding: 60px;
+
+}
+.humpty{
+  padding: 70px;
+  /*color: #b29600;*/
+}
+
+ .person {
+      border: 4px solid transparent;
+      margin-bottom: 25px;
+      width: 60%;
+      height: 60%;
+      background-color: gray;
+     opacity: 0.4;
+
+  }
+  .person1:hover {
+      border:10px solid #3498db;
+      opacity: 0.9;
+
+  }
+
+   .person2:hover {
+      border:10px solid #2ecc71;
+      opacity: 0.9;
+  }
+   .person3:hover {
+      border:10px solid #1abc9c;
+      opacity: 0.9;
+  }
+   .person4:hover {
+      border:10px solid #d35400;
+      opacity: 0.9;
+  }
+   .person5:hover {
+      border:10px solid #9b59b6;
+      opacity: 0.9;
+  }
+   .person6:hover {
+      border:10px solid #f1c40f;
+      opacity: 0.9;
+  }
+    .btn {
+      padding: 10px 20px!important;
+      background-color: #333;
+      color: #b29600;
+      text-decoration: none;
+      border-radius: 0!important;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid gray;
+      background-color: #fff;
+      color: #f1f1f1;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(44,0,0,14.34)!important;
+
+  }
+   .textarea {
+      resize: none;
+  }
+  .contact{
+    color: #b29600;
+  }
+   #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: scale(100%);
+      filter: scale(100%);
+  } 
+    footer {
+      background-color: #2d2d30;
+      color: #b29600;
+      padding: 32px;
+  }
+  footer a {
+      color: #b29600;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+    .modal-header, h4, .close {
+      background-color: #333!important;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  #contact{
+    padding: 28px;
+  }

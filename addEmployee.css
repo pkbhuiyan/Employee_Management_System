@@ -1,0 +1,79 @@
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(178, 150, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(41, 41, 44, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(178, 150, 0, 1);
+    background-color: rgba(41, 41, 44, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(41, 41, 44, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(128, 112, 112, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #29292c;
+}
+.form{
+  padding-top: 80px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+.frm{
+  border-top: none!important;
+  border-left: none!important;
+  border-right: none!important;
+  border-bottom: 1px solid #b29600!important;
+  box-shadow: none!important;
+}
+
+
+   .fiv1{
+    padding: 10px;
+    padding-left: 96px!important;
+   }
+    .fiv2{
+    padding: 10px;
+    padding-right: 96px!important;
+   }
+      .btn {
+      padding: 12px 36px;
+      background-color: #333;
+      color: #b29600;
+      border-radius: 0!important;
+      transition: .2s;
+      font-size: 16px!important;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid gray;
+      background-color: #fff;
+      color: #f1f1f1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(44,0,0,14.34)!important;
+
+  }
+  .center{
+    left: 40%;
+  padding-top: 18px;
+  }

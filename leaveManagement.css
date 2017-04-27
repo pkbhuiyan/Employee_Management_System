@@ -1,0 +1,23 @@
+
+.class-1{
+position: relative;
+left: 30%;	
+width: 250px;
+top:135px; 
+}
+.search_bar{
+width: 170%;
+height: 41px;
+}
+.bar{
+padding: 7px 25px;
+position: relative;
+left: 182%;
+bottom: 41px;	
+}
+.update{
+	position: relative;
+	padding: 7px 25px;
+	left: 122%;
+    bottom: -34px;
+}
