@@ -1,4 +1,7 @@
-<h2>Employee Management System</h2>
+## Employee Management System
 
-
-  Done with Core PHP. 
+- Add, Delete, Update Employee Information
+- Employee Office entering and leaving time track
+- Admin dashboard
+- Employee Dashboard
+- Previous Employee information
